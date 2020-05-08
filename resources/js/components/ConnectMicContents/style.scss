@@ -1,0 +1,195 @@
+.pids-wrapper {}
+
+
+.pid {
+    width: 27px;
+    height: 17px;
+    display: inline-block;
+    margin-left: -2px;
+    border: 1px solid #e8dede;
+    border-radius: 2px;
+    background-color: rgb(241, 241, 241);
+}
+
+.btn-next {
+    padding: 0.3rem 3rem;
+    border: 1px solid black;
+    color: black;
+}
+
+.title {
+    font-weight: 800;
+    margin-right: 3rem;
+
+}
+
+.sub-title {
+    width: 120px;
+}
+
+.icon-speaker::before {
+    font-size: 0.8rem;
+}
+
+.volume-wrap {
+    width: 289px;
+}
+
+.volume-range {
+    padding: 0 0;
+    height: initial;
+    margin: 0 0.5rem;
+    
+}
+
+.volume-range-mic {
+    transform: rotateY(180deg);
+}
+
+select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+
+    background-color: transparent;
+    border: none;
+    padding: 0rem 3.5rem 0 0.4rem;
+    width: 100%;
+}
+
+.select-wrap {
+    position: relative;
+    border-radius: 10px;
+    height: 23px;
+    border: 1px solid #808080;
+    width: 290px;
+}
+
+.select-custom {
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.custom-icon::before {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -10px;
+    font-size: 0.8rem;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.btn-test {
+    background-color: white;
+    color: black;
+    padding: 0.2rem 2.9rem;
+    border: 1px solid gray;
+}
+
+.workspaces-wrap .nav-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.workspaces-wrap {
+    background-color: #dfe8ef;
+    border-radius: 7px;
+
+}
+
+.workspaces-wrap .nav-item:not(:first-child) {
+    border-top: 1px solid #6cb2eb;
+}
+
+.inner-title {
+    font-size: 1.2rem;
+}
+
+.btn-add {
+    background-color: #800080;
+    color: #ffffff;
+}
+
+.header-title {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: #635c5c;
+}
+
+.title-share {
+    font-size: 2.5rem;
+}
+
+.start-now {
+    top: 2px;
+}
+
+.select-start-now {
+    padding: 0rem 0.5rem 0 0.4rem;
+}
+
+
+
+.start-now-checkbox:checked~.schedule-date {
+    display: none;
+}
+
+.workspace-select-checkbox {
+    top: 7px;
+}
+
+.require-meeting-password:checked~.meeting-password {
+    display: inline;
+}
+label[for=time-zone] {
+    width: 107px;
+    margin-top: 7px;
+}
+
+.meeting-password {
+    opacity: 1;
+    height: 30px;
+    border-radius: 6px;
+    width: 200px;
+    margin-left: 1rem;
+    display: none;
+}
+
+.share-screen-input {
+    font-size: 1.5rem;
+    border-radius: 11px;
+    border: 1px solid #82829e;
+    background-color: transparent;
+}
+
+.x-padding hr{
+    margin-top: .5rem;
+}
+
+.x-padding {
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.btn-share {
+    background-color: #a71da7;
+    color: white;
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 1200px) {
+    .x-padding {
+        padding-right: 7rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .x-padding {
+        padding-right: 15rem;
+    }
+}

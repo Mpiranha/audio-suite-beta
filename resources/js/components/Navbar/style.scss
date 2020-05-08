@@ -1,0 +1,175 @@
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.user-details-icon::before {
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+}
+
+.user-pic .user-name,
+.user-pic .nav-link {
+    font-size: 0.8rem;
+}
+
+.invisible {
+    display: none;
+}
+
+.link-wrap {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.user-pic-sm .user-name {
+    color: #ffffff;
+}
+
+.divider {
+    margin: 0.5rem 0;
+    border-top: 2px solid #ffffff;
+}
+
+.profile-setup {
+    font-size: 0.4rem;
+    color: #ffffff;
+}
+
+.user-more-details {
+    width: 100%;
+}
+
+.user-more-details .nav-link {
+    padding: 0.1rem 1rem;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-item {
+    margin: 0.5rem 0;
+}
+
+/* .nav-link:hover .nav-icon::before {
+    background-color: #eeeae377;
+  } */
+
+.user-pic {
+    display: none;
+    position: relative;
+}
+
+.navbar-nav .nav-link {
+    border-radius: 5px;
+    padding: 0.2rem 1rem;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    background-color: #eeeae377;
+}
+
+.navbar-nav .nav-icon::before {
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+}
+
+.navbar {
+    padding: 1rem 1rem;
+}
+
+.user-icon::before {
+    font-size: 2rem;
+    color: white;
+}
+
+// .nav-item .tooltip-inner {
+//     background-color: #fdfdfd;
+//     color: black;
+//     margin-left: 1rem;
+// }
+
+// .nav-item .tooltip.bs-tooltip-right .arrow:before {
+//     border-right-color: #fdfdfd !important;
+//     left: 1rem;
+// }
+
+@media screen and (min-width: 768px) {
+    .user-details-icon::before {
+        color: #3c68f6;
+    }
+
+    .user-more-inner {
+        position: relative;
+        background-color: #dfd9d9;
+        padding: 1.5rem 0px;
+        border-radius: 8px;
+    }
+
+    .user-more-inner::before {
+        content: "";
+        display: block;
+        border: 7px solid;
+        border-color: transparent transparent #dfd9d9 transparent;
+        position: absolute;
+        top: -14px;
+        left: 20px;
+    }
+
+    .profile-setup,
+    .user-pic .user-name {
+        color: #312f2f;
+    }
+
+    .divider {
+        border-top: 2px solid #807a7a;
+    }
+
+    .user-more-details {
+        width: 230px;
+        z-index: 9999;
+        position: absolute;
+        top: 50px;
+        left: -20px;
+        animation: appear 1s 1 linear alternate forwards;
+    }
+
+    .user-more-details .nav-link {
+        padding: 0.1rem 1rem;
+        color: #161515;
+    }
+
+    .user-pic-sm {
+        display: none !important;
+    }
+
+    .logo-sm {
+        display: none;
+    }
+
+    .user-pic {
+        display: block;
+    }
+
+    .navbar {
+        width: 100%;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .expanded {
+        max-width: 200px;
+    }
+
+    .nav-text,
+    .user-pic .user-name-expanded {
+        display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+}

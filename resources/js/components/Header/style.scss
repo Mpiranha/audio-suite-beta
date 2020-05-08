@@ -1,0 +1,58 @@
+.close-btn::before {
+    color: white;
+    font-size: 2rem;
+  }
+  .add-wrap {
+    padding: 0.6rem 0.5rem 0.4rem 0.5rem;
+    background-color: #ffffff61;
+    border-radius: 5px;
+  }
+  .add-icon::before {
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+  
+  .transcribe-audio {
+    padding: 0 2rem !important;
+    background-color: #00000059;
+    color: white !important;
+    border-radius: 5px;
+    margin-top: 0.7rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .header-icon {
+    margin-bottom: 0.3rem;
+  }
+  .header-icon::before {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    font-weight: 700;
+  }
+  .audio-format {
+    width: 59px;
+    font-size: 0.7rem;
+    padding: 0rem 0.1rem;
+    height: 28px;
+    margin-top: 0.2rem;
+  }
+  .audio-title-wrap {
+    background-color: #fa7c2d;
+  }
+  .audio-title {
+    background-color: transparent;
+    border: none;
+    max-width: 150px;
+    color: white !important;
+    font-size: 1rem;
+  }
+  
+  .audio-title:focus {
+    box-shadow: none;
+  }
+  @media screen and (min-width: 768px) {
+    .desc-text {
+      display: none;
+    }
+  }

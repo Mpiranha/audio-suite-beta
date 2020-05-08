@@ -1,0 +1,71 @@
+.nav-item {
+    margin-bottom: 1rem;
+}
+
+.drive {
+    background-color: #6b78fc;
+}
+
+.publish-audio {
+    background-color: #4ecb99;
+}
+
+.share {
+    background-color: #9998fd;
+}
+
+
+
+.padding {
+    padding: 0 0 0 2rem;
+}
+
+.setup-wrap {
+    position: relative;
+    padding: 0.4rem 0.8rem;
+    width: 50px;
+    border-radius: 7px;
+}
+
+.setup-icon::before {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.setup-wrap .desc-text {
+    position: absolute;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: 256px;
+    top: 50%;
+    margin-top: -16px;
+    right: -256px;
+    color: #4d4d4d;
+    font-size: 0.7rem;
+    padding: 0.5rem 3.3rem 0.5rem 1.5rem;
+    font-weight: bolder;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.drive-checked::before {
+    color: #4ecb99;
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 0px;
+    right: 3px;
+}
+
+.active .setup-wrap .desc-text {
+    background-color: #4d4d4d;
+    color: white;
+}
+
+@media (min-width: 1200px) {
+    .padding {
+        padding: 0 0 0 4rem;
+    }
+}
+
+

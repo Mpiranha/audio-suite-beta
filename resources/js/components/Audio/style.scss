@@ -1,0 +1,32 @@
+.audio-wrap {
+    display: flex;
+    position: relative;
+}
+
+.audio-title {
+    font-size: 0.8rem;
+    background-color: #f4f5f8;
+    width: 240px;
+    padding: 0 1rem;
+    z-index: -1;
+}
+
+.control-icon::before {
+    font-size: 1.5rem;
+    // margin-right: 1.2rem;
+}
+
+.canvas-wave {
+    width: 100%;
+    height: 40px;
+}
+
+.audio-wrap div:nth-child(2) {
+    padding: 0.6rem 1.5rem 0.5rem 1em;
+    background-color: #f4f5f8;
+    border-radius: 15px 0 0 15px;
+}
+
+.audio-wrap div:last-child {
+    padding: 0.5rem 0 0rem 1em;
+}

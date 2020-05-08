@@ -1,0 +1,66 @@
+.youtube::before,
+.share-icon::before {
+    color: #ff0000;
+}
+
+.sound-cloud::before {
+    color: #ff4f0a;
+}
+
+.podcast::before {
+    color: #a70aa1;
+}
+
+.facebook::before {
+    color: #0000ff;
+}
+
+.instagram::before {
+    color: #db4a74;
+}
+
+.share-icon::before {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.share-contents {
+    overflow: hidden;
+}
+
+
+.youtube::before,
+.sound-cloud::before,
+.podcast::before,
+.facebook::before,
+.instagram::before,
+.share-icon::before {
+    font-size: 1.4rem;
+}
+
+
+.drop-enter-active {
+    animation: drop 1s;
+}
+
+.drop-leave-active {
+    animation: drop 1s reverse;
+}
+
+@keyframes drop {
+    0% {
+        height: 0;
+    }
+
+    25% {
+        height: 303px;
+    }
+
+    50% {
+        transform: translateY(25px);
+    }
+
+    100% {
+        transform: translateY(-25px);
+    }
+}
