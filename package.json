@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "fibers": "^4.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "luxon": "^1.23.0",
     "vue-audio-visual": "^2.0.1",
     "vue-axios": "^2.1.5",
